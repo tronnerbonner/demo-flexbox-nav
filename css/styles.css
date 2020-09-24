@@ -1,0 +1,26 @@
+h1 img {
+    width: 100px;
+}
+
+header {
+    background-color: rgb(250, 250, 250);
+    padding: 8px 16px;
+    border-bottom: 1px solid rgb(222, 222, 222);
+    box-shadow: 0 0 8px 0 rgb(222, 222, 222);
+    min-width: 960px;
+}
+
+nav {
+    display: flex;
+}
+
+.nav-links,
+.nav-button {
+    display: flex;
+    justify-content: space-between;
+}
+
+/*When styling nav links - space the li's & style the anchor tag.*/
+li {
+    margin: 0 12px
+}
